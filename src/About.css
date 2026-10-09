@@ -1,0 +1,473 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    position: relative;
+    height: 700px;
+    margin-left: 50px;
+    overflow: hidden;
+}
+
+.box {
+    position: absolute;
+    width: 1250px;
+    height: 100%;
+    top: 70px;
+    opacity: 0;
+    animation: hero 15s infinite;
+}
+
+.box img {
+    width: 100%;
+    height: 600px;
+    border-radius: 20px;
+}
+
+.box1 {
+    animation-delay: 0s;
+}
+
+.box2 {
+    animation-delay: 5s;
+}
+
+.box3 {
+    animation-delay: 10s;
+}
+
+.hero-box {
+    position: absolute;
+    top: 150px;
+    left: 70px;
+    color: white;
+}
+
+@keyframes hero {
+
+    0% {
+        opacity: 0;
+    }
+
+    5% {
+        opacity: 1;
+    }
+
+    30% {
+        opacity: 1;
+    }
+
+    35% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+
+/* ================= BACKGROUND ================= */
+
+#from {
+    background-color: black;
+}
+
+
+/* ================= BOOTSTRAP CAROUSEL ================= */
+
+.carousel-item {
+    width: 100%;
+}
+
+
+/* ================= CAROUSEL 1 ================= */
+
+.movie-row-1 {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 40px;
+    padding: 0;
+    gap: 10px;
+}
+
+.movie-img-1 {
+    width: 250px;
+    height: 150px;
+    margin-top: 10px;
+    margin-left: 0;
+    padding: 0;
+    border-radius: 7px;
+    position: sticky;
+}
+
+.movie-img-1:hover {
+    transition: 0.9s;
+    transform: scale(1.10);
+}
+
+
+/* ================= CAROUSEL 2 ================= */
+
+.movie-row-2 {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 40px;
+    padding: 0;
+    gap: 10px;
+}
+
+.movie-img-2 {
+    width: 250px;
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 0;
+    padding: 0;
+    border-radius: 7px;
+    position: sticky;
+}
+
+.movie-img-2:hover {
+    transition: 0.9s;
+    transform: scale(1.10);
+}
+
+
+/* ================= CAROUSEL 3 ================= */
+
+.movie-row-3 {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 40px;
+    padding: 0;
+    gap: 10px;
+}
+
+.movie-img-3 {
+    width: 250px;
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 0;
+    padding: 0;
+    border-radius: 7px;
+    position: sticky;
+}
+
+.movie-img-3:hover {
+    transition: 0.9s;
+    transform: scale(1.10);
+}
+
+
+/* ================= CAROUSEL 4 ================= */
+
+.movie-row-4 {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 40px;
+    padding: 0;
+    gap: 10px;
+}
+
+.movie-img-4 {
+    width: 250px;
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 0;
+    padding: 0;
+    border-radius: 7px;
+    position: sticky;
+}
+
+.movie-img-4:hover {
+    transition: 0.9s;
+    transform: scale(1.10);
+}
+
+
+/* ================= CAROUSEL 5 ================= */
+
+.movie-row-5 {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 40px;
+    padding: 0;
+    gap: 10px;
+}
+
+.movie-img-5 {
+    width: 250px;
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 0;
+    padding: 0;
+    border-radius: 7px;
+    position: sticky;
+}
+
+.movie-img-5:hover {
+    transition: 0.9s;
+    transform: scale(1.10);
+}
+
+
+/* ================= CAROUSEL 6 ================= */
+
+.movie-row-6 {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 40px;
+    padding: 0;
+    gap: 10px;
+}
+
+.movie-img-6 {
+    width: 250px;
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 0;
+    padding: 0;
+    border-radius: 7px;
+    position: sticky;
+}
+
+.movie-img-6:hover {
+    transition: 0.9s;
+    transform: scale(1.10);
+}
+
+
+/* ================= CAROUSEL 7 ================= */
+
+.movie-row-7 {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 40px;
+    padding: 0;
+    gap: 10px;
+}
+
+.movie-img-7 {
+    width: 250px;
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 0;
+    padding: 0;
+    border-radius: 7px;
+    position: sticky;
+}
+
+.movie-img-7:hover {
+    transition: 0.9s;
+    transform: scale(1.10);
+}
+
+
+/* ================= CAROUSEL 8 ================= */
+
+.movie-row-8 {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 40px;
+    padding: 0;
+    gap: 10px;
+}
+
+.movie-img-8 {
+    width: 250px;
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 0;
+    padding: 0;
+    border-radius: 7px;
+    position: sticky;
+}
+
+.movie-img-8:hover {
+    transition: 0.9s;
+    transform: scale(1.10);
+}
+
+
+/*  CAROUSEL 9  */
+
+.movie-row-9 {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 40px;
+    padding: 0;
+    gap: 10px;
+}
+
+.movie-img-9 {
+    width: 250px;
+    height: 150px;
+    margin-top: 10px;
+    margin-left: 0;
+    padding: 0;
+    border-radius: 7px;
+    position: sticky;
+}
+
+.movie-img-9:hover {
+    transition: 0.9s;
+    transform: scale(1.10);
+}
+
+
+/* ================= CAROUSEL 10 ================= */
+
+.movie-row-10 {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 40px;
+    padding: 0;
+    gap: 10px;
+}
+
+.movie-img-10 {
+    width: 250px;
+    height: 150px;
+    margin-top: 10px;
+    margin-left: 0;
+    padding: 0;
+    border-radius: 7px;
+    position: sticky;
+}
+
+.movie-img-10:hover {
+    transition: 0.9s;
+    transform: scale(1.10);
+}
+
+
+/* ================= HEADING ================= */
+
+.heading {
+    margin-top: 10px;
+    margin-left: 35px;
+    color: white;
+}
+
+
+/* ================= TOP 10 ================= */
+
+.another {
+    display: flex;
+    gap: 70px;
+    margin-top: 10px;
+    margin-left: 20px;
+    position: relative;
+    z-index: 1;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scrollbar-width: none;
+}
+
+.another::-webkit-scrollbar {
+    display: none;
+}
+
+.rank-card {
+    position: relative;
+    width: 200px;
+    height: 250px;
+    transition: transform 0.3s ease;
+}
+
+.i {
+    width: 200px;
+    height: 250px;
+    border-radius: 5px;
+    margin-left: 50px;
+    position: relative;
+    z-index: 2;
+}
+
+.i:hover {
+    transition: 0.5s;
+    transform: scale(1.05);
+}
+
+.rank-number {
+    position: absolute;
+    left: -10px;
+    bottom: 20px;
+    font-size: 160px;
+    font-weight: bold;
+    color: black;
+    -webkit-text-stroke: 3px gray;
+    z-index: 1;
+}
+
+
+/* ================= OTHER MOVIES ================= */
+
+.anothers {
+    display: flex;
+    gap: 20px;
+    margin-left: 60px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    margin-top: 50px;
+}
+
+.anothers::-webkit-scrollbar {
+    display: none;
+}
+
+.movie {
+    width: 180px;
+    height: 200px;
+    border-radius: 7px;
+    flex-shrink: 0;
+}
+.footer {
+    
+    width: 1400px;
+    color: white;
+    padding: 45px 8%;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 130px;
+    row-gap: 15px;
+    font-family: Arial, sans-serif;
+    overflow-y: hidden;
+}
+
+.footer-box {
+    min-width: 180px;
+}
+
+.footer-box h3 {
+    font-size: 16px;
+    margin: 0 0 25px 0;
+    color: white;
+}
+
+.footer-box p {
+    font-size: 14px;
+    color: #aaa;
+    margin: 0 0 18px 0;
+}
+
+.footer-last {
+    width: 100%;
+    margin-top: 15px;
+}
+
+.footer-last p {
+    color: #777;
+    font-size: 14px;
+    margin: 12px 0;
+}
+span{
+  font-size: 30px;
+}

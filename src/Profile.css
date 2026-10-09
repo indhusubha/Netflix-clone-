@@ -1,0 +1,44 @@
+body{
+    background: #141414;
+}
+
+h1{
+    color: white;
+    margin-top: 100px;
+    text-align: center;
+}
+
+#flex{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 60px;
+}
+
+.profile{
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.profile:hover{
+    border: 3px solid white;
+    transform: scale(1.05);
+}
+
+#name{
+    display: flex;
+    justify-content: center;
+    gap: 95px;
+    margin-top: 15px;
+}
+
+#name h2{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+
