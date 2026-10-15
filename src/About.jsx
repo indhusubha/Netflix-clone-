@@ -28,6 +28,7 @@ function About() {
       {/* ================= CAROUSEL 1 ================= */}
 
       <div className="heading">
+        <h1> MOVIES</h1>
         <h4>Trending Movies</h4>
       </div>
 
